@@ -12,7 +12,7 @@ public class Provider {
             ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("provider.xml");
             System.out.println(context.getDisplayName() + ": here");
             context.start();
-            System.out.println("服务已经启动...");
+            System.out.println("服务已经启动...ok");
             System.in.read();
         }
     }
