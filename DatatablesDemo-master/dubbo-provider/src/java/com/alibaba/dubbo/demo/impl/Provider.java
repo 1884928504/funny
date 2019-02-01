@@ -12,7 +12,7 @@ public class Provider {
             ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("provider.xml");
             System.out.println(context.getDisplayName() + ": here");
             context.start();
-            System.out.println("服务已经启动...ok记得哈石达开地方军阀");
+            System.out.println("服务已经启动...");
             System.in.read();
         }
     }
